@@ -12,5 +12,5 @@
 	3. tiene un codigo, un contador, un stack una sección de datos y un heap
 
 # Program vs Process
-	a program is *passive* entity stored on disk (executable file)
-	a process is *active* entity stored on disk
+	a program is **passive** entity stored on disk (executable file)
+	a process is **active** entity stored on disk
