@@ -36,5 +36,12 @@
 	bla bla bla images on presentation
 
 # Process Scheduling
-	. aaa
+	1. sekects anibg avuabke oricesses fir bext execution on CPU core
+	2. the goal is to maximize CPU usage
+	3. maintains echeduling queues
 	
+# Context Switch
+	1. when CPU switches to another process , system must save state
+	2. context is represented in PCB
+	3. time dependent ond hardware support
+
