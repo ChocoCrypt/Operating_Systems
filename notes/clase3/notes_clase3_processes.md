@@ -45,3 +45,11 @@
 	2. context is represented in PCB
 	3. time dependent ond hardware support
 
+# Multitasking on mobile systems
+	1. mobile systems allow only one proces to run 
+	2. screen real state provide user to onle 1 single foreground process and multiple background processes.
+	3. background processes uses a service to perform tasks
+	3. background processes can keep runing even if background is suspended
+	4. no interface for background
+
+
