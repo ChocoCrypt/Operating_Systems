@@ -14,3 +14,21 @@
 # Program vs Process
 	a program is **passive** entity stored on disk (executable file)
 	a process is **active** entity stored on disk
+
+# Process State
+	1. New
+	2. Running
+	3. waiting
+	4. ready
+	5. terminated
+
+# Process Control Block
+	1. process state
+	2. origran counter
+	3. CPU registers
+	4. CPU scheduling information
+	5. Memory management information
+	6. accounting information (CPU Used , clock , time since start...)
+	7. I/O status
+
+	
