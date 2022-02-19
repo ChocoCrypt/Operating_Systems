@@ -31,4 +31,10 @@
 	6. accounting information (CPU Used , clock , time since start...)
 	7. I/O status
 
+# Threads
+	process has a single thread of execution
+	bla bla bla images on presentation
+
+# Process Scheduling
+	. aaa
 	
