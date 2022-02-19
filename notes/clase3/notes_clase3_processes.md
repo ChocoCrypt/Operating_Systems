@@ -1,4 +1,4 @@
-#objetivos_procesos:
+#objetivos procesos:
 	1. identificar y separar componentes 
 	2. describir como los procesos son creados en un sistema operativo
 	3. describir como contrastan los procesos internos de comunicación usando memoria compartida y pasando mensajes
