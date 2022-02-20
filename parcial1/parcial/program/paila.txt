@@ -1,0 +1,34 @@
+
+//this class is messed up, i tried with everything but i didn't have enought
+//time to do it correctly :(
+/*
+class ProcesTree{
+	private:
+		Process root;
+		Process upper;
+		Process lower;
+		int secret;
+	public:
+		ProcesTree(int start){
+			Process root = Process(start);
+			Process upper = NULL;
+			Process lower = NULL;
+		}
+		void Search(Process node){
+			bool done = false;
+			while(!done){
+				if(node.is_cold == 0){
+					//hot case
+
+				}
+				if(this.root.is_cold == 1){
+					//warm or cold case
+				}
+				if(this.root.is_cold==2){
+					//freezing case
+				}
+			}
+		}
+
+};
+*/

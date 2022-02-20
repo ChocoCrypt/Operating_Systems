@@ -1,0 +1,86 @@
+#include <iostream>
+#include <cstdlib>
+#include <string>
+#include <vector>
+#include <time.h>
+
+using namespace std;
+
+
+
+//this class works
+class Process{
+	private:
+		int init;
+		Process* left;
+		Process* right;
+	public:
+		// constructor method for generating a process with given value
+		Process(int value){
+			this -> left = NULL;
+			this->right = NULL;
+			init = value;
+		}
+		// Is Cold method of the game , i made values ints to make it easier
+		int is_cold(int secret){
+			int distance = abs( secret - init);
+			if(distance < 30){
+				cout<<"Cold"<<endl;
+				return(0);
+			}
+			if(distance >= 30 && distance <100){
+				cout<<"Warm"<<endl;
+				return(1);
+			}
+			cout<<"Cold"<<endl;
+			return(2);
+		}
+		int get_value(){
+			return(init);
+		}
+};
+
+//this class is messed up, i tried with everything but i didn't have enought
+//time to do it correctly :(
+/*
+class ProcesTree{
+	private:
+		Process root;
+		Process upper;
+		Process lower;
+		int secret;
+	public:
+		ProcesTree(int start){
+			Process root = Process(start);
+			Process upper = NULL;
+			Process lower = NULL;
+		}
+		void Search(Process node){
+			bool done = false;
+			while(!done){
+				if(node.is_cold == 0){
+					//hot case
+
+				}
+				if(this.root.is_cold == 1){
+					//warm or cold case
+				}
+				if(this.root.is_cold==2){
+					//freezing case
+				}
+			}
+		}
+
+};
+*/
+
+
+int main(){
+	//i'll program main rules for the program
+	Process p0 = Process(5000);
+	in = p0.get_value();
+	int cout<<in;
+	return(0);
+}
+
+
